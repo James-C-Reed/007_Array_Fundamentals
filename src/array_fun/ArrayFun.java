@@ -6,7 +6,7 @@ public class ArrayFun {
 	
 	public void showInstructions() {
 		
-		String msg = "Essential rules for arrays";
+		/*String msg0 = "Essential rules for arrays";
 		String msg1 = "1. Arrays have a FIXED length!!! Ath the time they are created.";
 		String msg3 = "2. Two ways to set an array size when constructed";
 		String msg4 = "-- one way is to set size when created with [size]";
@@ -15,9 +15,20 @@ public class ArrayFun {
 		String msg7 = "Can NOT NO HOW NO WAY change SIZE of the array!!";
 		String msg8 = "But of COURSE you can change values!";
 		
-		msg = (msg + "\n" + msg1 + "\n" + msg3 + "\n" + msg4 + "\n" + msg5);
+		msg = (msg + "\n" + msg1 + "\n" + msg3 + "\n" + msg4 + "\n" + msg5);*/
 		
-		JOptionPane.showMessageDialog(null, msg);
+		String[] msgArray = {
+				"Essential rules for arrays",
+				"1. Arrays have a FIXED length!!! Ath the time they are created.",
+				"2. Two ways to set an array size when constructed",
+				"-- one way is to set size when created with [size]",
+				"-- The other way set size with innitial data {n1, n2..}\\",
+				"Dynamic - when a program is running",
+				"Can NOT NO HOW NO WAY change SIZE of the array!!",
+				"But of COURSE you can change values!"
+		};
+		
+		JOptionPane.showMessageDialog(null, msgArray);
 		
 	}
 	
